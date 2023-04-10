@@ -4,13 +4,12 @@
 
 ![EaglercraftX 1.8 Screenshot Main Menu](https://media.discordapp.net/attachments/1042594789943689327/1080697078583394355/eaglerx-480p.png)
 
-## ATTENTION MOJANG/MICROSOFT EMPLOYEE ASSIGNED TO STALK ME:
+## Play online at:  https://www.psico.uk/psicoweb/minecraft/index.html
 
-### THIS REPOSITORY DOES NOT CONTAIN YOUR INTELLECTUAL PROPERTY
-
-### FILING A FALSE DMCA IS ILLEGAL AND IMMORAL
 
 ### This repository contains:
+
+
 
  - **Utilities to decompile Minecraft 1.8 and apply patch files to it**
  - **Source code to provide the LWJGL keyboard, mouse, and OpenGL APIs in a browser**
@@ -62,5 +61,16 @@ A detailed plugin config guide will be added here too eventually
 This part of the guide is incomplete
 
 ## Developing a Client:
+
+The filename has changed from 1.8.8.jar to client.jar put the new client jar in root dir and write the correct path to it when prompted by the compiler wizard,you do not need to change the filename.
+The "output" folder will contain the files you will need to upload to your website host.Upload these files to your chosen url and point the browser at the index.html file.
+When u connect to the server for the first time , you will need to populate the "server list",click ADD SERVER and input the servername , wss://address and click "done".
+The proxy server will apperar in your main server list.Repeat to add more proxies.
+
+# Server list : 
+
+Alist of servers can be found here : https://eaglercraft.ru/p/servers/
+
+#Note
 
 There is currently no system in place to make forks of 1.8 and merge commits made to the patch files in this repository with the patch files or workspace of the fork, you're on your own if you try to keep a fork of this repo for reasons other than to contribute to it
